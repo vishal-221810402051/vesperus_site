@@ -16,7 +16,7 @@ export default function NovaSection() {
       <div className="section-shell grid gap-10 lg:grid-cols-[0.9fr_1.1fr]">
         <motion.div initial={{ opacity: 0, y: 16 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.55 }}>
           <p className="eyebrow">NOVA platform</p>
-          <h2 className="mt-4 text-3xl font-semibold md:text-5xl">The current validated proof point for Vesperus.</h2>
+          <h2 className="mt-4 text-3xl font-semibold md:text-5xl">The current validation-first proof point for Vesperus.</h2>
           <p className="mt-5 text-lg leading-8 text-text-secondary">
             NOVA is a validation-first hardware/software orchestration platform for distributed system supervision. It establishes a credible technical layer for future medical automation research while keeping safety boundaries explicit.
           </p>

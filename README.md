@@ -2,13 +2,13 @@
 
 ## Purpose
 
-This repository contains the content architecture, messaging foundation, visual system documentation, asset planning, and future implementation files for the Vesperus website.
+This repository contains the content architecture, messaging foundation, visual system documentation, asset planning, and implementation files for the Vesperus website.
 
 Vesperus is a deep-tech startup brand focused on intelligent orchestration, validation, and automation platforms for next-generation medical systems.
 
 ## Current Phase
 
-Phase 5 — Professional Credibility Layer Implemented
+Phase 5.8M - NOVA / NOVA SC Strong Separation Implemented
 
 ## Domain
 
@@ -22,7 +22,7 @@ Vercel deployment is planned for a later phase.
 
 ## Asset Status
 
-Phase 3 defines asset requirements and fallback rules. Actual images are still missing and must be provided before final polish, but the website can proceed using abstract CSS visuals.
+Phase 5.8M separates NOVA Platform and NOVA SC into distinct pages: `/nova` now focuses on hardware and infrastructure foundation, while `/nova-sc` owns software supervision, telemetry visibility, validation evidence, replay, and future intelligent advisory infrastructure.
 
 ## Local Run Instructions
 

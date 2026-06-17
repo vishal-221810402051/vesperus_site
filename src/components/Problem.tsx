@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { AlertTriangle, DatabaseZap, LockKeyhole } from "lucide-react";
 
 const challenges = [
-  { icon: DatabaseZap, title: "Fragmented signals", text: "Medical automation needs trusted coordination across devices, gateways, and supervision software." },
+  { icon: DatabaseZap, title: "Fragmented signals", text: "Medical automation needs verifiable coordination across devices, gateways, and supervision software." },
   { icon: LockKeyhole, title: "Safety boundaries", text: "Autonomous systems must preserve validation layers before higher-risk medical workflows are introduced." },
   { icon: AlertTriangle, title: "Integrity gaps", text: "Telemetry and packet integrity need continuous monitoring, not isolated dashboards." },
 ];

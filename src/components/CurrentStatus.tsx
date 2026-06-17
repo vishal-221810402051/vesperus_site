@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Activity, CircuitBoard, FlaskConical, ServerCog, ShieldAlert } from "lucide-react";
+import { Activity, CircuitBoard, FlaskConical, ServerCog } from "lucide-react";
 
 const statuses = [
   {
@@ -12,14 +12,14 @@ const statuses = [
   {
     icon: Activity,
     item: "NOVA SC",
-    status: "Telemetry validated",
+    status: "Telemetry checks validated",
     tone: "green",
     note: "Supervision console direction for observability and signal checks.",
   },
   {
     icon: ServerCog,
     item: "Pi Gateway",
-    status: "Operational",
+    status: "Operational prototype",
     tone: "green",
     note: "Gateway layer connecting embedded architecture and supervision.",
   },
@@ -29,13 +29,6 @@ const statuses = [
     status: "Research & Development",
     tone: "amber",
     note: "Future application direction built on top of NOVA.",
-  },
-  {
-    icon: ShieldAlert,
-    item: "Clinical Deployment",
-    status: "Not claimed",
-    tone: "neutral",
-    note: "The current site presents infrastructure and validation progress only.",
   },
 ];
 
@@ -53,14 +46,14 @@ export default function CurrentStatus() {
         <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <div>
             <p className="eyebrow">Current Status</p>
-            <h2 className="mt-4 text-3xl font-semibold md:text-4xl">What exists, what is in development, and what is not claimed.</h2>
+            <h2 className="mt-4 text-3xl font-semibold md:text-4xl">What exists and what is in development.</h2>
           </div>
           <p className="max-w-xl text-sm leading-7 text-text-secondary">
             A quick maturity scan for reviewers, partners, and ecosystem programs.
           </p>
         </div>
 
-        <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-5">
+        <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
           {statuses.map(({ icon: Icon, item, status, tone, note }, index) => (
             <motion.article
               key={item}

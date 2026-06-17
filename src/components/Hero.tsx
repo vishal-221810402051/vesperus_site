@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Cpu, ShieldCheck } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
@@ -17,7 +18,7 @@ export default function Hero() {
           transition={{ duration: 0.7 }}
           className="max-w-3xl"
         >
-          <p className="eyebrow">Vesperus systems</p>
+          <p className="eyebrow">Vesperus Systems</p>
           <h1 className="mt-6 max-w-4xl text-5xl font-semibold leading-[1.02] text-text-primary md:text-7xl">
             Engineering the future of autonomous healthcare.
           </h1>
@@ -25,18 +26,18 @@ export default function Hero() {
             Vesperus builds intelligent orchestration, validation, and automation platforms for next-generation medical systems.
           </p>
           <div className="mt-9 flex flex-col gap-3 sm:flex-row">
-            <a
-              href="#nova"
+            <Link
+              to="/nova"
               className="inline-flex items-center justify-center gap-2 rounded-full bg-accent-cyan px-6 py-3 text-sm font-semibold text-background-primary shadow-glow transition hover:bg-accent-teal focus:outline-none focus:ring-2 focus:ring-accent-cyan/60"
             >
               Learn about NOVA <ArrowRight size={17} />
-            </a>
-            <a
-              href="#recognition"
+            </Link>
+            <Link
+              to="/founder"
               className="inline-flex items-center justify-center rounded-full border border-border-subtle bg-surface-primary/70 px-6 py-3 text-sm font-semibold text-text-primary transition hover:border-accent-cyan hover:text-accent-cyan focus:outline-none focus:ring-2 focus:ring-accent-cyan/60"
             >
-              View recognition
-            </a>
+              View founder
+            </Link>
           </div>
         </motion.div>
 
