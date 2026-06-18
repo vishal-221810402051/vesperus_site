@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { CircuitBoard } from "lucide-react";
+import novaB1Image from "../../../assets/images/NOVA_B1/nova_b1.jpg";
 
 const capabilities = [
   "Dual ESP32-S3 architecture",
@@ -17,10 +17,14 @@ export default function NovaB1Motherboard() {
     <section className="bg-background-secondary/60">
       <div className="section-shell grid gap-8 lg:grid-cols-[0.95fr_1.05fr]">
         <motion.div initial={{ opacity: 0, y: 16 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.55 }} className="panel flex min-h-80 items-center justify-center p-6 text-center">
-          <div>
-            <CircuitBoard className="mx-auto text-accent-cyan" size={42} />
-            <p className="mt-5 text-xl font-semibold">NOVA B1 Image Pending</p>
-            <p className="mt-3 text-sm leading-6 text-text-muted">Real motherboard imagery will be added in a future documentation update.</p>
+          <div className="relative flex h-full min-h-[28rem] w-full items-center justify-center overflow-hidden rounded-[2rem] border border-white/10 bg-slate-950/40 p-4">
+            <img
+              src={novaB1Image}
+              alt="NOVA B1 motherboard prototype"
+              className="h-full max-h-[32rem] w-full rounded-[1.5rem] object-contain"
+              loading="lazy"
+              decoding="async"
+            />
           </div>
         </motion.div>
 
