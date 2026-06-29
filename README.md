@@ -8,7 +8,7 @@ Vesperus is a deep-tech startup brand focused on intelligent orchestration, vali
 
 ## Current Phase
 
-Phase 5.8M - NOVA / NOVA SC Strong Separation Implemented
+Phase 5.8AM - Insights Page Implemented
 
 ## Domain
 
@@ -22,7 +22,12 @@ Vercel deployment is planned for a later phase.
 
 ## Asset Status
 
-Phase 5.8M separates NOVA Platform and NOVA SC into distinct pages: `/nova` now focuses on hardware and infrastructure foundation, while `/nova-sc` owns software supervision, telemetry visibility, validation evidence, replay, and future intelligent advisory infrastructure.
+Phase 5.8AM added:
+
+- `/insights` page
+- Featured Healthcare Resilience Diplomacy report
+- PDF view/download support
+- Navbar Insights item
 
 ## Local Run Instructions
 

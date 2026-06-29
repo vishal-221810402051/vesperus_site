@@ -6,6 +6,7 @@ import vesperusLogo from "../../../assets/images/vesperus-logo.png";
 const navItems = [
   { label: "Home", href: "/" },
   { label: "Projects", href: "/projects" },
+  { label: "Insights", href: "/insights" },
   { label: "Founder", href: "/founder" },
   { label: "Contact", href: "/contact" },
 ];

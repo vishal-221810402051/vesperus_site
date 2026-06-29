@@ -6,6 +6,7 @@ import ScrollToTop from "./components/layout/ScrollToTop";
 import ContactPage from "./pages/ContactPage";
 import FounderPage from "./pages/FounderPage";
 import HomePage from "./pages/HomePage";
+import InsightsPage from "./pages/InsightsPage";
 import MedisPage from "./pages/MedisPage";
 import NotFoundPage from "./pages/NotFoundPage";
 import NovaPage from "./pages/NovaPage";
@@ -23,6 +24,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/projects" element={<ProjectsPage />} />
+            <Route path="/insights" element={<InsightsPage />} />
             <Route path="/nova" element={<NovaPage />} />
             <Route path="/nova-sc" element={<NovaScPage />} />
             <Route path="/medis" element={<MedisPage />} />
